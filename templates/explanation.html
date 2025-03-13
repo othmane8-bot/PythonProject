@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>About This Application</title>
+</head>
+<body>
+    <h2>About This Application</h2>
+    <p>
+        This web application calculates the diffusion coefficient based on a provided fraction  (Xa) and temperature (T).
+        It uses a series of logarithmic and exponential calculations along with predefined constants to estimate the diffusion coefficient.
+    </p>
+    <p>
+        The calculation involves evaluating the diffusion parameters using the provided mathematical model. The result is then compared with an expected experimental value,
+        and a relative error is computed.
+    </p>
+    <p>
+        To use the application, go to the calculation page, input your values for Xa and T, and then view the computed results.
+    </p>
+    <p>
+        <a href="{{ url_for('home') }}">Back to Home</a>
+    </p>
+</body>
+</html>
